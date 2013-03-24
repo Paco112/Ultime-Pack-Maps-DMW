@@ -1,0 +1,5 @@
+utilisation de install option
+
+
+install option > gération de ini pour pagecomponant à la volé
+install option > intégration de ultime Cleaner 

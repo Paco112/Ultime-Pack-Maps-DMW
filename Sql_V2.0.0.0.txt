@@ -1,0 +1,793 @@
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'info', 'http://www.dog-cie.com/info.ini', '0'
+
+);
+
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'End', 'http://www.dog-cie.com/info.ini', '0'
+
+);
+ 
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Pk3 Manager', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Pk3 Manager.exe', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'BA_skin_pack1', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/BA_skin_pack1.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User - Aarschot Obj', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User - Aarschot Obj.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'VSUK-AbbeyBeta', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/VSUK-AbbeyBeta.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'africannights_obj', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/africannights_obj.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-Aftermath', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-Aftermath.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Angryfields', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Angryfields.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-ARG-Hunt', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-ARG-Hunt.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-ARG- Las Chotas v2.0 Obj', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-ARG- Las Chotas v2.0 Obj.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'assault77', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/assault77.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'BA_stalingrad', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/BA_stalingrad.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'obj_bahnhof_steinhude_1939', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/obj_bahnhof_steinhude_1939.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-bazaar', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-bazaar.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User - CapturedBase', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User - CapturedBase.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-dasboot', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-dasboot.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-objdesertbase_final', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-objdesertbase_final.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-Desert-Assault', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-Desert-Assault.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-Despair', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-Despair.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'dmga2', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/dmga2.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-Eaglesnest-Final', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-Eaglesnest-Final.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-eder', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-eder.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-obj_FallenVillage', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-obj_FallenVillage.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'fortwreck', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/fortwreck.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'gloomcove', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/gloomcove.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-Greece_1943_SP', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-Greece_1943_SP.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'obj_howitzer_v1', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/obj_howitzer_v1.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'obj_Kasbah', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/obj_Kasbah.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'ZzZ_User_La_patrouille_2(all_version)', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/ZzZ_User_La_patrouille_2(all_version).pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user_labeuze', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user_labeuze.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User_Laboratory', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User_Laboratory.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-Las Chotas', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-Las Chotas.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-obj_lastcastle', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-obj_lastcastle.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User_Letzte_Tage', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User_Letzte_Tage.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'lol_clifftop', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/lol_clifftop.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'lol_v2_new_3', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/lol_v2_new_3.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-obj_maromg', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-obj_maromg.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'obj_marseille_v1_6', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/obj_marseille_v1_6.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'monastere', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/monastere.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'OpCenter_obj', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/OpCenter_obj.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Opra', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Opra.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'push_cityhall', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/push_cityhall.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user_resistance', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user_resistance.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'objdm_rockbound_aa', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/objdm_rockbound_aa.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Schplatzburg_obj', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Schplatzburg_obj.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-Snow_Camp', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-Snow_Camp.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-Stlo', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-Stlo.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Kmarzo-St Renan', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Kmarzo-St Renan.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'stalingrad1942', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/stalingrad1942.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Stalingrad_3', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Stalingrad_3.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-swordbeach', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-swordbeach.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user_obj_teamzero', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user_obj_teamzero.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'the_cemetary', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/the_cemetary.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-TheLostVillage', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-TheLostVillage.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'TheVilla', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/TheVilla.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Tirtagaine-KechtatIII', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Tirtagaine-KechtatIII.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Under_Siege', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Under_Siege.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'V2Shelter', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/V2Shelter.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-finalv3lab', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-finalv3lab.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'wuesten-kaff-beta9', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/wuesten-kaff-beta9.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-ydiss-xfire', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-ydiss-xfire.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'africannightstdm', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/africannightstdm.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'ammo_factory', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/ammo_factory.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Arnhem', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Arnhem.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'bob_carentan', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/bob_carentan.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Map_AA_bombedv', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Map_AA_bombedv.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-Broken_Silence', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-Broken_Silence.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'BSunrise3-3', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/BSunrise3-3.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'bullettrain', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/bullettrain.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'AR_Bunkeranlage_V1', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/AR_Bunkeranlage_V1.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-obj_canal', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-obj_canal.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-CanalTown_V2', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-CanalTown_V2.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-casablanca', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-casablanca.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'communique', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/communique.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'dm_dorf', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/dm_dorf.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'dm_dorf14', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/dm_dorf14.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'duenkirchen', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/duenkirchen.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'UserW5-MOHDust', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/UserW5-MOHDust.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-dm_FallenVillage', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-dm_FallenVillage.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-Forschungslabor', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-Forschungslabor.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'SW_dm_Gatehouse_Assault', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/SW_dm_Gatehouse_Assault.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'hitlersfarm', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/hitlersfarm.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'italy1', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/italy1.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-ARG- Las Chotas v2.0 DM', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-ARG- Las Chotas v2.0 DM.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'lastcastle1', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/lastcastle1.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'military_post', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/military_post.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-morocco', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-morocco.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-tdm_needle', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-tdm_needle.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Dmarean-nightbattle', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Dmarean-nightbattle.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-OperationSealion', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-OperationSealion.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Renverse', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Renverse.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'dm_routenord', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/dm_routenord.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-MP_Sandsturm_DM', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-MP_Sandsturm_DM.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'SmallCity', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/SmallCity.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-Stalingrad2Full', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-Stalingrad2Full.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-stalingradsnow', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-stalingradsnow.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-Kirby_Stalingrad_Unbound2', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-Kirby_Stalingrad_Unbound2.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Strike_at_Dawn-Return To Algiers', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Strike_at_Dawn-Return To Algiers.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Obj_TheChurch_Final', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Obj_TheChurch_Final.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'the_overpass', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/the_overpass.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'dmarena-towers', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/dmarena-towers.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'toysoldiers', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/toysoldiers.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-tunisian', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-tunisian.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-tunisian_sh', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-tunisian_sh.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'ugcthorn_ak', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/ugcthorn_ak.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'urbansprawl', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/urbansprawl.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'vervins', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/vervins.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User_Watten_multi', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User_Watten_multi.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'Weihnachtsmarkt', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/Weihnachtsmarkt.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'User-MP_Winterschlaf_DM', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/User-MP_Winterschlaf_DM.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-xfire2v2', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-xfire2v2.pk3', '0'
+
+);	   
+INSERT INTO `Ultime_Stats_Maps` ( `id` , `name` , `url` , `donwload` )
+
+VALUES (
+
+'', 'user-ydiss-objxfireville', 'http://www.dog-cie.com/Ultime_Pack_Maps_DMW/Download/user-ydiss-objxfireville.pk3', '0'
+
+);	 

@@ -1,0 +1,156 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  EXCEPTION_FLT_STACK_CHECK (0xc0000092) at pc=0x00c4d2a9, pid=3336, tid=2892
+#
+# Java VM: Java HotSpot(TM) Client VM (1.6.0_03-b05 mixed mode)
+# Problematic frame:
+# v  ~RuntimeStub::resolve_static_call
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00886000):  JavaThread "main" [_thread_in_Java, id=2892]
+
+siginfo: ExceptionCode=0xc0000092, ExceptionInformation=0x00000000 0x0012ebe4 
+
+Registers:
+EAX=0x2002b568, EBX=0x00000000, ECX=0x0000004b, EDX=0x1003e668
+ESP=0x0012eb78, EBP=0x0012ec88, ESI=0x00000000, EDI=0x0000004b
+EIP=0x00c4d2a9, EFLAGS=0x00010216
+
+Top of Stack: (sp=0x0012eb78)
+0x0012eb78:   ffff1272 ffff0022 ffffffff 00c30594
+0x0012eb88:   011c001b 100896e0 ffff0023 01bb1d40
+0x0012eb98:   0146d968 001809e6 00000000 d7300000
+0x0012eba8:   00000000 00000000 1d4000c6 008401bb
+0x0012ebb8:   d91c0146 0146d76c 000009e6 0000d784
+0x0012ebc8:   a5680000 4005c7fc 00000000 c0000000
+0x0012ebd8:   00004004 00000000 3ffec000 00885098
+0x0012ebe8:   6d8edd1d 0012ed04 008850ac 008850b0 
+
+Instructions: (pc=0x00c4d2a9)
+0x00c4d299:   00 00 83 ec 6c dd 34 24 9b dd 24 24 dd 5c 24 6c
+0x00c4d2a9:   dd 5c 24 74 dd 5c 24 7c dd 9c 24 84 00 00 00 dd 
+
+
+Stack: [0x00030000,0x00130000),  sp=0x0012eb78,  free space=1018k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+v  ~RuntimeStub::resolve_static_call
+J  java.lang.String.toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+j  java.security.Provider.parseLegacyPut(Ljava/lang/String;Ljava/lang/String;)V+4
+j  java.security.Provider.ensureLegacyParsed()V+103
+j  java.security.Provider.getService(Ljava/lang/String;Ljava/lang/String;)Ljava/security/Provider$Service;+64
+j  sun.security.jca.ProviderList$ServiceList.tryGet(I)Ljava/security/Provider$Service;+102
+j  sun.security.jca.ProviderList$ServiceList.access$200(Lsun/security/jca/ProviderList$ServiceList;I)Ljava/security/Provider$Service;+2
+j  sun.security.jca.ProviderList$ServiceList$1.hasNext()Z+8
+j  java.security.KeyFactory.nextSpi(Ljava/security/KeyFactorySpi;)Ljava/security/KeyFactorySpi;+41
+j  java.security.KeyFactory.<init>(Ljava/lang/String;)V+39
+j  java.security.KeyFactory.getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;+5
+j  sun.security.x509.X509Key.buildX509Key(Lsun/security/x509/AlgorithmId;Lsun/security/util/BitArray;)Ljava/security/PublicKey;+30
+j  sun.security.x509.X509Key.parse(Lsun/security/util/DerValue;)Ljava/security/PublicKey;+38
+j  sun.security.x509.CertificateX509Key.<init>(Lsun/security/util/DerInputStream;)V+11
+j  sun.security.x509.X509CertInfo.parse(Lsun/security/util/DerValue;)V+203
+j  sun.security.x509.X509CertInfo.<init>(Lsun/security/util/DerValue;)V+67
+j  sun.security.x509.X509CertImpl.parse(Lsun/security/util/DerValue;)V+227
+j  sun.security.x509.X509CertImpl.<init>([B)V+38
+j  sun.security.provider.X509Factory.engineGenerateCertificate(Ljava/io/InputStream;)Ljava/security/cert/Certificate;+83
+j  java.security.cert.CertificateFactory.generateCertificate(Ljava/io/InputStream;)Ljava/security/cert/Certificate;+5
+j  sun.security.pkcs.PKCS7.parseSignedData(Lsun/security/util/DerValue;)V+244
+j  sun.security.pkcs.PKCS7.parse(Lsun/security/util/DerInputStream;Z)V+47
+j  sun.security.pkcs.PKCS7.parse(Lsun/security/util/DerInputStream;)V+11
+j  sun.security.pkcs.PKCS7.<init>([B)V+50
+j  sun.security.util.SignatureFileVerifier.<init>(Ljava/util/ArrayList;Lsun/security/util/ManifestDigester;Ljava/lang/String;[B)V+29
+j  java.util.jar.JarVerifier.processEntry(Lsun/security/util/ManifestEntryVerifier;)V+307
+j  java.util.jar.JarVerifier.update(I[BIILsun/security/util/ManifestEntryVerifier;)V+39
+j  java.util.jar.JarFile.initializeVerifier()V+107
+j  java.util.jar.JarFile.getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;+25
+j  sun.misc.URLClassPath$JarLoader$2.getInputStream()Ljava/io/InputStream;+11
+j  sun.misc.Resource.cachedInputStream()Ljava/io/InputStream;+9
+j  sun.misc.Resource.getByteBuffer()Ljava/nio/ByteBuffer;+1
+j  java.net.URLClassLoader.defineClass(Ljava/lang/String;Lsun/misc/Resource;)Ljava/lang/Class;+179
+j  java.net.URLClassLoader.access$000(Ljava/net/URLClassLoader;Ljava/lang/String;Lsun/misc/Resource;)Ljava/lang/Class;+3
+j  java.net.URLClassLoader$1.run()Ljava/lang/Object;+43
+v  ~StubRoutines::call_stub
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x02f4b400 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=2844]
+  0x02f46800 JavaThread "CompilerThread0" daemon [_thread_blocked, id=3592]
+  0x02f45400 JavaThread "Attach Listener" daemon [_thread_blocked, id=3408]
+  0x02f44800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=3052]
+  0x02f36800 JavaThread "Finalizer" daemon [_thread_blocked, id=1980]
+  0x02f32400 JavaThread "Reference Handler" daemon [_thread_blocked, id=3348]
+=>0x00886000 JavaThread "main" [_thread_in_Java, id=2892]
+
+Other Threads:
+  0x02f2dc00 VMThread [id=2680]
+  0x02f55c00 WatcherThread [id=3556]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 2880K, used 427K [0x10020000, 0x10330000, 0x113d0000)
+  eden
+[error occurred during error reporting, step 190, id 0xc0000092]
+
+Dynamic libraries:
+0x00400000 - 0x0040d000 	G:\Autre - Projets\Eclipse\eclipse.exe
+0x7c910000 - 0x7c9c7000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c905000 	C:\WINDOWS\system32\kernel32.dll
+0x7e390000 - 0x7e420000 	C:\WINDOWS\system32\USER32.dll
+0x77ef0000 - 0x77f37000 	C:\WINDOWS\system32\GDI32.dll
+0x58b50000 - 0x58bea000 	C:\WINDOWS\system32\COMCTL32.dll
+0x77da0000 - 0x77e4c000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e50000 - 0x77ee2000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fc0000 - 0x77fd1000 	C:\WINDOWS\system32\Secur32.dll
+0x77be0000 - 0x77c38000 	C:\WINDOWS\system32\MSVCRT.dll
+0x76320000 - 0x7633d000 	C:\WINDOWS\system32\IMM32.DLL
+0x00890000 - 0x008cd000 	C:\PROGRA~1\Launcher\ToroHaspHooker.dll
+0x44400000 - 0x44423000 	C:\WINDOWS\system32\MADCHOOK.DLL
+0x770e0000 - 0x7716b000 	C:\WINDOWS\system32\oleaut32.dll
+0x774a0000 - 0x775dd000 	C:\WINDOWS\system32\ole32.dll
+0x10000000 - 0x10011000 	G:\Autre - Projets\Eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.0.0.v20070523\eclipse_1017a.dll
+0x77bd0000 - 0x77bd8000 	C:\WINDOWS\system32\VERSION.dll
+0x5b090000 - 0x5b0c8000 	C:\WINDOWS\system32\uxtheme.dll
+0x74690000 - 0x746dc000 	C:\WINDOWS\system32\MSCTF.dll
+0x75140000 - 0x7516e000 	C:\WINDOWS\system32\msctfime.ime
+0x6d7c0000 - 0x6da0a000 	C:\Program Files\Java\jre1.6.0_03\bin\client\jvm.dll
+0x76ae0000 - 0x76b0f000 	C:\WINDOWS\system32\WINMM.dll
+0x7c340000 - 0x7c396000 	C:\WINDOWS\system32\MSVCR71.dll
+0x6d310000 - 0x6d318000 	C:\Program Files\Java\jre1.6.0_03\bin\hpi.dll
+0x76ba0000 - 0x76bab000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d770000 - 0x6d77c000 	C:\Program Files\Java\jre1.6.0_03\bin\verify.dll
+0x6d3b0000 - 0x6d3cf000 	C:\Program Files\Java\jre1.6.0_03\bin\java.dll
+0x6d7b0000 - 0x6d7bf000 	C:\Program Files\Java\jre1.6.0_03\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Xms40m -Xmx256m -XX:MaxPermSize=256m
+java_command: <unknown>
+Launcher Type: generic
+
+Environment Variables:
+PATH=C:\Program Files\Java\jre1.6.0_03\bin\client;C:\Program Files\Java\jre1.6.0_03\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Fichiers communs\Adobe\AGL;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Fichiers communs\Autodesk Shared\;C:\Program Files\Autodesk\backburner\
+USERNAME=Administrateur
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 11, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 2
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 11, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2096620k(1507896k free), swap 3515696k(3051452k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.6.0_03-b05) for windows-x86, built on Sep 24 2007 22:24:33 by "java_re" with unknown MS VC++:1310
+

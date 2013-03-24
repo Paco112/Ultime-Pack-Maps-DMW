@@ -1,0 +1,154 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x6d8f6e92, pid=3364, tid=2952
+#
+# Java VM: Java HotSpot(TM) Client VM (1.6.0_03-b05 mixed mode)
+# Problematic frame:
+# V  [jvm.dll+0x136e92]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x02cedc00):  VMThread [id=2952]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0xffff7fff
+
+Registers:
+EAX=0xffff7fff, EBX=0x6d9c9c94, ECX=0x00c5cb5f, EDX=0x00000001
+ESP=0x02e7f998, EBP=0x6d9965d8, ESI=0x00c5b608, EDI=0x6d9a8f48
+EIP=0x6d8f6e92, EFLAGS=0x00010202
+
+Top of Stack: (sp=0x02e7f998)
+0x02e7f998:   6d904c41 00c5cb5f 008d24c0 00c5b608
+0x02e7f9a8:   6d9c9c78 6d9c9c94 00000000 00c5b774
+0x02e7f9b8:   00c5bbec 00c5b608 00c5cb5e 113d0005
+0x02e7f9c8:   02e7f9c4 6d000000 00000000 00000000
+0x02e7f9d8:   00000000 00000000 6d9965d8 02e7f9b0
+0x02e7f9e8:   00000000 00000000 00c5b488 6d82d6a8
+0x02e7f9f8:   6d9c9c94 008da8d8 00000001 6d9c9c78
+0x02e7fa08:   6d92d88d 6d9c9c94 6d9c9f2c 6d9c9c78 
+
+Instructions: (pc=0x6d8f6e92)
+0x6d8f6e82:   24 04 8b 01 85 c0 74 1d 8a 15 a7 65 9c 6d 84 d2
+0x6d8f6e92:   8b 00 74 0a 8b d0 83 e2 07 80 fa 05 74 07 83 e0 
+
+
+Stack: [0x02d80000,0x02e80000),  sp=0x02e7f998,  free space=1022k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x136e92]
+
+VM_Operation (0x065efbd4): full generation collection, mode: safepoint, requested by thread 0x05524000
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x05524000 JavaThread "ʔ耂ʔ脂ʔ舂ʔ茂ʔ萂ʔ蔂ʔ蘂ʔ蜂ʔ蠂ʔ褂ʔ訂ʔ謂ʔ谂ʔ贂ʔ踂ʔ輂ʔ适ʔ鄂ʔ鈂ʔ錂ʔ鐂ʔ锂ʔ阂ʔ霂ʔ頂ʔ餂ʔ騂ʔ鬂ʔ鰂ʔ鴂ʔ鸂ʔ鼂ʔꀂʔꄂʔꈂʔꌂʔꐂʔꔂʔꘂʔ꜂ʔꠂʔ꤂ʔꨂʔꬂʔ갂ʔ괂ʔ긂ʔ꼂ʔ뀂ʔ넂ʔ눂ʔ댂ʔ됂ʔ딂ʔ똂ʔ뜂ʔ렂ʔ뤂ʔ먂ʔ묂ʔ밂ʔ봂ʔ븂ʔ뼂ʔ쀂ʔ섂ʔ숂ʔ쌂ʔ쐂ʔ씂ʔ옂ʔ윂ʔ젂ʔ줂ʔ쨂ʔ쬂ʔ찂ʔ촂ʔ츂ʔ켂ʔ퀂ʔ턂ʔ툂ʔ팂ʔ퐂ʔ픂ʔ혂ʔ휂ʔ���ʔ���ʔ���ʔ���ʔ���ʔ���ʔ���ʔ���ʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔʔ車ʔ拓ʔﬂʔﰂʔﴂʔ︂ʔ＂ʔȂʕ̂ʕЂʕԂʕ؂ʕ܂ʕࠂʕंʕਂʕଂʕంʕംʕขʕ༂ʕဂʕᄂʕ∂ʕ⌂ʕ␂ʕ│ʕ☂ʕ✂ʕ⠂ʕ⤂ʕ⨂ʕ⬂ʕⰂʕⴂʕ⸂ʕ⼂ʕ。ʕ㄂ʕ㈂ʕ㌂ʕ㐂ʕ㔂ʕ㘂ʕ㜂ʕ㠂ʕ㤂ʕ㨂ʕ㬂ʕ㰂ʕ㴂ʕ㸂ʕ㼂ʕ䀂ʕ䄂ʕ䈂ʕ䌂ʕ䐂ʕ䔂ʕ䘂ʕ䜂ʕ䠂ʕ䤂ʕ䨂ʕ䬂ʕ䰂ʕ䴂ʕ丂ʕ伂ʕ倂ʕ儂ʕ刂ʕ匂ʕ吂ʕ唂ʕ嘂ʕ圂ʕ堂ʕ夂ʕ娂ʕ嬂ʕ専ʕ崂ʕ市ʕ异ʕ怂ʕ愂ʕ戂ʕ挂ʕ搂ʕ攂ʕ昂ʕ朂ʕ栂ʕ椂ʕ樂ʕ欂ʕ氂ʕ洂ʕ渂ʕ漂ʕ瀂ʕ焂ʕ爂ʕ猂ʕ琂ʕ甂ʕ瘂ʕ眂ʕ砂ʕ礂ʕ稂ʕ笂ʕ簂ʕ紂ʕ縂ʕ缂ʕ耂ʕ脂ʕ舂ʕ茂ʕ萂ʕ蔂ʕ蘂ʕ蜂ʕ蠂ʕ褂ʕ訂ʕ謂ʕ谂ʕ贂ʕ踂ʕ輂ʕ适ʕ鄂ʕ鈂ʕ錂ʕ鐂ʕ锂ʕ阂ʕ霂ʕ頂ʕ餂ʕ騂ʕ鬂ʕ鰂ʕ鴂ʕ鸂ʕ鼂ʕꀂʕꄂʕꈂʕꌂʕꐂʕꔂʕꘂʕ꜂ʕꠂʕ꤂ʕꨂʕꬂʕ갂ʕ괂ʕ긂ʕ꼂ʕ뀂ʕ넂ʕ눂ʕ댂ʕ됂ʕ딂ʕ똂ʕ뜂ʕ렂ʕ뤂ʕ먂ʕ묂ʕ밂ʕ봂ʕ븂ʕ뼂ʕ쀂ʕ섂ʕ숂ʕ쌂ʕ쐂ʕ씂ʕ옂ʕ윂ʕ젂ʕ줂ʕ쨂ʕ쬂ʕ찂ʕ촂ʕ츂ʕ켂ʕ퀂ʕ턂ʕ툂ʕ팂ʕ퐂ʕ픂ʕ혂ʕ휂ʕ���ʕ���ʕ���ʕ���ʕ���ʕ���ʕ���ʕ���ʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕʕ車ʕ拓ʕﬂʕﰂʕﴂʕ︂ʕ＂ʕȂʖ̂ʖЂʖԂʖ؂ʖ܂ʖࠂʖंʖਂʖଂʖంʖംʖขʖ༂ʖဂʖᄂʖሂʖጂʖᐂʖᔂʖᘂʖᜂʖ᠂ʖᤂʖᨂʖᬂʖᰂʖᴂʖḂʖἂʖ ʖℂʖ∂ʖ� [_thread_blocked, id=3352]
+  0x054e7c00 JavaThread "" daemon [_thread_blocked, id=3360]
+  0x0540a400 JavaThread "Unknown thread" [_thread_blocked, id=4092]
+  0x03abb800 
+[error occurred during error reporting, step 170, id 0xc0000005]
+
+VM state:at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x008d4a90/0x00000128] Threads_lock - owner thread: 0x02cedc00
+[0x008d4c30/0x00000168] Heap_lock - owner thread: 0x05524000
+
+Heap
+ def new generation   total 2880K, used 1036K [0x10020000, 0x10340000, 0x113d0000)
+  eden space 2560K,  38% used [0x10020000, 0x10114dc8, 0x102a0000)
+  from space 320K,  17% used [0x102f0000, 0x102fe388, 0x10340000)
+  to   space 320K,   0% used [0x102a0000, 0x102a0000, 0x102f0000)
+ tenured generation   total 37824K, used 12860K [0x113d0000, 0x138c0000, 0x20020000)
+   the space 37824K,  34% used [0x113d0000, 0x1205f230, 0x12053000, 0x138c0000)
+ compacting perm gen  total 32256K, used 32228K [0x20020000, 0x21fa0000, 0x30020000)
+   the space 32256K,  99% used [0x20020000, 0x21f993f0, 0x21f99400, 0x21fa0000)
+No shared spaces configured.
+
+Dynamic libraries:
+0x00400000 - 0x0040d000 	G:\Autre - Projets\Eclipse\eclipse.exe
+0x7c910000 - 0x7c9c7000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c905000 	C:\WINDOWS\system32\kernel32.dll
+0x7e390000 - 0x7e420000 	C:\WINDOWS\system32\USER32.dll
+0x77ef0000 - 0x77f37000 	C:\WINDOWS\system32\GDI32.dll
+0x58b50000 - 0x58bea000 	C:\WINDOWS\system32\COMCTL32.dll
+0x77da0000 - 0x77e4c000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e50000 - 0x77ee2000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fc0000 - 0x77fd1000 	C:\WINDOWS\system32\Secur32.dll
+0x77be0000 - 0x77c38000 	C:\WINDOWS\system32\MSVCRT.dll
+0x76320000 - 0x7633d000 	C:\WINDOWS\system32\IMM32.DLL
+0x10000000 - 0x10011000 	G:\Autre - Projets\Eclipse\plugins\org.eclipse.equinox.launcher.win32.win32.x86_1.0.0.v20070523\eclipse_1017a.dll
+0x77bd0000 - 0x77bd8000 	C:\WINDOWS\system32\VERSION.dll
+0x5b090000 - 0x5b0c8000 	C:\WINDOWS\system32\uxtheme.dll
+0x74690000 - 0x746dc000 	C:\WINDOWS\system32\MSCTF.dll
+0x75140000 - 0x7516e000 	C:\WINDOWS\system32\msctfime.ime
+0x774a0000 - 0x775dd000 	C:\WINDOWS\system32\ole32.dll
+0x6d7c0000 - 0x6da0a000 	C:\Program Files\Java\jre1.6.0_03\bin\client\jvm.dll
+0x76ae0000 - 0x76b0f000 	C:\WINDOWS\system32\WINMM.dll
+0x7c340000 - 0x7c396000 	C:\WINDOWS\system32\MSVCR71.dll
+0x6d310000 - 0x6d318000 	C:\Program Files\Java\jre1.6.0_03\bin\hpi.dll
+0x76ba0000 - 0x76bab000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d770000 - 0x6d77c000 	C:\Program Files\Java\jre1.6.0_03\bin\verify.dll
+0x6d3b0000 - 0x6d3cf000 	C:\Program Files\Java\jre1.6.0_03\bin\java.dll
+0x6d7b0000 - 0x6d7bf000 	C:\Program Files\Java\jre1.6.0_03\bin\zip.dll
+0x6d570000 - 0x6d583000 	C:\Program Files\Java\jre1.6.0_03\bin\net.dll
+0x719f0000 - 0x71a07000 	C:\WINDOWS\system32\WS2_32.dll
+0x719e0000 - 0x719e8000 	C:\WINDOWS\system32\WS2HELP.dll
+0x6d590000 - 0x6d599000 	C:\Program Files\Java\jre1.6.0_03\bin\nio.dll
+0x03f90000 - 0x03fdf000 	G:\Autre - Projets\Eclipse\configuration\org.eclipse.osgi\bundles\112\1\.cp\swt-win32-3346.dll
+0x77390000 - 0x77493000 	C:\WINDOWS\WinSxS\X86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\COMCTL32.dll
+0x77f40000 - 0x77fb6000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x76340000 - 0x7638a000 	C:\WINDOWS\system32\comdlg32.dll
+0x7c9d0000 - 0x7d1f4000 	C:\WINDOWS\system32\SHELL32.dll
+0x770e0000 - 0x7716b000 	C:\WINDOWS\system32\OLEAUT32.dll
+0x753c0000 - 0x7542b000 	C:\WINDOWS\system32\USP10.dll
+0x44080000 - 0x4414f000 	C:\WINDOWS\system32\WININET.dll
+0x03ff0000 - 0x03ff9000 	C:\WINDOWS\system32\Normaliz.dll
+0x43e00000 - 0x43e45000 	C:\WINDOWS\system32\iertutil.dll
+0x74bf0000 - 0x74c1c000 	C:\WINDOWS\system32\oleacc.dll
+0x76010000 - 0x76075000 	C:\WINDOWS\system32\MSVCP60.dll
+0x04730000 - 0x04744000 	G:\Autre - Projets\Eclipse\configuration\org.eclipse.osgi\bundles\112\1\.cp\swt-gdip-win32-3346.dll
+0x4eb80000 - 0x4ed23000 	C:\WINDOWS\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.2180_x-ww_522f9f82\gdiplus.dll
+0x04a10000 - 0x04cea000 	C:\WINDOWS\system32\xpsp2res.dll
+0x049b0000 - 0x049b5000 	G:\Autre - Projets\Eclipse\configuration\org.eclipse.osgi\bundles\155\1\.cp\os\win32\x86\MakeNSISRunner.dll
+0x049e0000 - 0x049e7000 	G:\Autre - Projets\Eclipse\configuration\org.eclipse.osgi\bundles\155\1\.cp\os\win32\x86\WinAPI.dll
+0x778e0000 - 0x779d8000 	C:\WINDOWS\system32\SETUPAPI.dll
+0x76960000 - 0x76a15000 	C:\WINDOWS\system32\USERENV.dll
+0x75d30000 - 0x75dc1000 	C:\WINDOWS\system32\MLANG.dll
+0x6fee0000 - 0x6ff34000 	C:\WINDOWS\system32\netapi32.dll
+0x04ff0000 - 0x04ff8000 	G:\Autre - Projets\Eclipse\configuration\org.eclipse.osgi\bundles\33\1\.cp\os\win32\x86\localfile_1_0_0.dll
+0x76f80000 - 0x76fff000 	C:\WINDOWS\system32\CLBCATQ.DLL
+0x77000000 - 0x770d4000 	C:\WINDOWS\system32\COMRes.dll
+0x77b50000 - 0x77b72000 	C:\WINDOWS\system32\apphelp.dll
+0x77210000 - 0x772c1000 	C:\WINDOWS\system32\SXS.DLL
+0x7d200000 - 0x7d4be000 	C:\WINDOWS\system32\msi.dll
+0x76310000 - 0x76315000 	C:\WINDOWS\system32\msimg32.dll
+
+VM Arguments:
+jvm_args: -Xms40m -Xmx256m -XX:MaxPermSize=256m
+java_command: <unknown>
+Launcher Type: generic
+
+Environment Variables:
+PATH=C:\Program Files\Java\jre1.6.0_03\bin\client;C:\Program Files\Java\jre1.6.0_03\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Fichiers communs\Adobe\AGL;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Fichiers communs\Autodesk Shared\;C:\Program Files\Autodesk\backburner\
+USERNAME=Administrateur
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 11, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 2
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 11, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2096620k(1513216k free), swap 3515696k(3094924k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.6.0_03-b05) for windows-x86, built on Sep 24 2007 22:24:33 by "java_re" with unknown MS VC++:1310
+
